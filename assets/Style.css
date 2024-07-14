@@ -11,6 +11,7 @@
     background-color: rgb(0, 0, 0, 0.55);
     font-family: 'merriweather', serif;
     box-shadow: 1px 1px 3px; rgba(255, 255, 255, 0.54);
+    z-index: 99;
 }
 
 .cc-navbar .nav-link{
@@ -33,6 +34,12 @@
     font-size: 48px;
     font-weight: 400;
     color: #ffffff;
+}
+
+.cc-menu{
+    background: linear-gradient( rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0.55)), url('pexels-fariphotography-905847.jpg') center center fixed; 
+    background-size: cover;
+    height: 1200px;
 }
 .btn-order{
     color: var(--bs-teal);
