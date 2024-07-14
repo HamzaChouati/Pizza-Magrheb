@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Redressed&display=swap');
+
+.redressed{
+    font-family: 'redressed', cursive;
+}
+
+.merriweather{
+    font-family: 'merriweather', serif ;
+}
+.cc-navbar{
+    background-color: rgb(0, 0, 0, 0.55);
+    font-family: 'merriweather', serif;
+    box-shadow: 1px 1px 3px; rgba(255, 255, 255, 0.54);
+}
+
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.cc-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.banner{
+    background: linear-gradient( rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0.55)), url('Pizza-magrheb.jpg') center center fixed;
+    background-size: cover;
+    height: 900px;
+}
+
+.banner .banner-desc{
+    font-size: 48px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active{
+    color: #ffffff;
+    background-color: var(--bs-teal);
+}
