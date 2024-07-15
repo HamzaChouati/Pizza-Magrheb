@@ -217,11 +217,64 @@
 
     <section class="order-form py-5"> 
         <div class="container">
-            <h2 class="merriweather text center text-light mb-4">Passer une commande</h2>
+            <h2 class="merriweather text-center text-light mb-4">Passer une commande</h2>
             <form>
                 <div class="row">
-                    <div class="col-md-6 col-sm"></div>
-                    <div class="col-md-6 col-sm"></div>
+                    <div class="col-md-6 col-sm">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Votre nom"/>
+                        </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-utesils"></i>
+                            </label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Choisir un menu</option>
+                                <option value="1">Pizza</option>
+                                <option value="2">Glaces</option>
+                                <option value="3">Patisserie</option>
+                            </select>
+                        </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-sort-numeric-up-alt"></i>
+                            </label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Nombre de personnes</option>
+                                <option value="1">Deux</option>
+                                <option value="2">Quatres</option>
+                                <option value="3">Six</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i>
+                            </span>
+                            <input type="email" class="form-control" placeholder="Votre email"/>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone"></i>
+                            </span>
+                            <input type="number" class="form-control" placeholder="Numero de téléphone"/>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-home"></i>
+                            </span>
+                            <input type="text" class="form-control" placeholder="adresse "/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Préciser le nombre de personnes</i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Exemple: 25"/>
+                    </div>
+                        <div class="input-group">
+                            <span class="input-group-text">Autres informations</span>
+                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
                 </div>
             </form>
         </div>
